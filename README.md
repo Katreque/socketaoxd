@@ -1,10 +1,10 @@
 # socketaoxd
 Abstração para uso de Sockets no estilo de servidores DNS em C/C++.
 
-# Como usar?
+## Como usar?
 Basta adicionar o socketaoxd.h dentro da pasta do seu projeto e dar um include nela. (Vide na pasta exemplos)
 
-# Métodos disponíveis
+## Métodos disponíveis
 Para criar um novo cliente, basta chamar o método *iniciarCliente*, no qual possui dois parâmetros: uma array de char para o IP e um int para a porta do servidor no qual o cliente irá se conectar.
 
 ```c++
@@ -50,5 +50,5 @@ int main() {
 }
 ```
 
-# Recomendações
+## Recomendações
 Apesar de atacar um problema em específico, é possível adaptar a biblioteca para funcionar da forma que precisar, utilizando sockets em C/C++. O projeto está sob a licença MIT, então sinta-se livre para dar um fork e utilizar da forma que desejar. Se gostou, deixe aquela estrela marota e qualquer dúvida/problema, abra uma issue.
